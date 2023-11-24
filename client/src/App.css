@@ -1,0 +1,163 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  max-width: 60px; /* Adjust the maximum width for a smaller logo */
+  height: auto;
+}
+
+.navbar-toggler-icon {
+  border: 1px solid #007bff;
+}
+
+.navbar-toggler {
+  background-color: #007bff;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: #495057;
+  transition: color 0.3s;
+}
+
+.navbar-nav a:hover {
+  color: #007bff;
+}
+
+/* Container Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Home Section Styles */
+.home-section {
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* About Section Styles */
+.about-section {
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* Contact Section Styles */
+.contact-section {
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 500px) {
+  .navbar-nav {
+    text-align: center;
+    margin: 8px 0;
+  }
+
+  .navbar-nav a {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+.justfordemo{
+  color: green;
+}
+.signup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.signup-content {
+  display: flex;
+}
+
+.signup-form {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.form-title {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Signup Image Styles */
+
+.signup-image {
+  flex: 1;
+  text-align: center;
+}
+
+.signup-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.signup-image-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
